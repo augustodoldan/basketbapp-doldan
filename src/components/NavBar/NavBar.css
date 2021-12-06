@@ -1,0 +1,18 @@
+a {
+  color: white !important;
+}
+.navbar-brand {
+  font-size: calc(1.4rem + 1vw);
+  color: #17408b !important;
+  font-family: "Trade Winds", cursive;
+  letter-spacing: 5px;
+}
+
+.navbar {
+  font-family: "Trade Winds", cursive;
+  background-color: #c9082a !important;
+}
+
+.nav-link {
+  font-size: calc(0.5rem + 1vw);
+}
