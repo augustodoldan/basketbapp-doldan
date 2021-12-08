@@ -1,18 +1,24 @@
-a {
-  color: white !important;
-}
-.navbar-brand {
+#title-navbar {
   font-size: calc(1.4rem + 1vw);
-  color: #17408b !important;
+  color: #17408b;
   font-family: "Trade Winds", cursive;
   letter-spacing: 5px;
 }
 
 .navbar {
   font-family: "Trade Winds", cursive;
-  background-color: #c9082a !important;
+  background-color: #c9082a;
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
   font-size: calc(0.5rem + 1vw);
+  color: white;
 }
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color:#17408b;
+  transition-duration: 500ms;
+  transition-property: color;
+}
+

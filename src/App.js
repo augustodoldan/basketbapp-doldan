@@ -1,12 +1,14 @@
 import "./App.css";
-import NavBar from "./components/NavBar/index.js";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import NavBar from "./components/NavBar/NavBar";
 function App() {
+  const title = "BASKETBAPP";
+  const subtitle = "La página de compras donde siempre vas a sumar +3!";
   return (
     <div className="App">
       <NavBar />
       <div className="container">
-        <h1 className="title-page">BASKETBAPP</h1>
-        <h3>La página de compras donde siempre vas a sumar +3!</h3>
+        <ItemListContainer greeting={title} subtitle={subtitle} />
       </div>
     </div>
   );

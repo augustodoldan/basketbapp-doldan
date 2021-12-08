@@ -12,15 +12,4 @@ html {
   height: 100vh;
 }
 
-.title-page {
-  text-align: center;
-  justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  color: #c9082a;
-}
 
-.container h3 {
-  color: #ffbf00;
-  text-align: center;
-}
