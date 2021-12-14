@@ -1,8 +1,8 @@
 #title-navbar {
-  font-size: calc(1.4rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   color: #17408b;
   font-family: "Trade Winds", cursive;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 .navbar {
@@ -15,10 +15,9 @@
   color: white;
 }
 
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-  color:#17408b;
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #17408b;
   transition-duration: 500ms;
   transition-property: color;
 }
-

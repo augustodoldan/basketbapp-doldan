@@ -4,7 +4,7 @@ import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" sticky="top">
+    <Navbar collapseOnSelect expand="lg" sticky="top" className="main-navbar">
       <Container>
         <Navbar.Brand href="#home" id="title-navbar">
           Basketbapp
