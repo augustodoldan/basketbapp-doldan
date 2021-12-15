@@ -1,3 +1,11 @@
+.container-ItemListContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .title-page {
     text-align: center;
     justify-content: center;
@@ -22,3 +30,6 @@
     font-size: 1.5rem;
   }
 
+.Itemlist-component{
+  width: 100%;
+}
