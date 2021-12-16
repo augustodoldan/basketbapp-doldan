@@ -1,6 +1,39 @@
-.main-card{
-    width: 18rem;
-    height: 25rem;
+.card-body {
+  width: 15rem;
+}
+.card-component {
+  background-color: #edae49;
+  border: black 1px solid;
+  border-radius: 10px;
+}
 
+.button-card {
+  margin-top: 10px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+}
+.card-title {
+  height: 60px;
+  font-size: 1.5rem;
+}
+.card-text {
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
 
+@media (max-width: 905px) {
+  .main-card {
+    width: 60vw;
+    margin-top: 55px;
+  }
+  .card-body {
+    width: 60vw;
+  }
+  .card-text {
+  }
 }

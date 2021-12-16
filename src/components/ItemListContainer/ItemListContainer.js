@@ -62,7 +62,7 @@ const ItemListContainer = ({ greeting, subtitle }) => {
         )}
       </div>
       <div className="Itemlist-component">
-        <ItemList items={items} stock={stock}/>
+        <ItemList items={items} stock={stock} />
       </div>
     </div>
   );
