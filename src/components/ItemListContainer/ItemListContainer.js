@@ -3,10 +3,9 @@ import ItemCount from "../ItemCount/ItemCount";
 import ItemList from "../ItemList/ItemList";
 import "./ItemListContainer.css";
 
-const ItemListContainer = ({ greeting, subtitle }) => {
+const ItemListContainer = ({ greeting, subtitle, items, setItems, products }) => {
   const [stock, setStock] = useState(10);
   const [productNumber, setProductNumber] = useState("");
-  const [items, setItems] = useState([]);
 
   const data = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -18,7 +17,7 @@ const ItemListContainer = ({ greeting, subtitle }) => {
             price: 45000,
             pictureUrl:
               "https://www.highsnobiety.com/static-assets/thumbor/1or6Ndgd7ytOaMv0DKt2oou2_AM=/1500x1000/whatdropsnow.s3.amazonaws.com/product_image/180297/shrine_image/8ebea55765d2a404caba66c29dbc607e.jpg",
-          },
+            },
           {
             id: 2,
             title: "N3xt L3v3l Supernatural Shoes",
