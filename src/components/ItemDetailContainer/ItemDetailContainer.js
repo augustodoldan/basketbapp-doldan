@@ -1,8 +1,8 @@
-const ItemDetailContainer = ({ setProducts }) => {
+const ItemDetailContainer = ({ setCategorias }) => {
   const dataCategories = new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(
-        setProducts([
+        setCategorias([
           {
             id: 1,
             nombre: "Zapatillas",
@@ -24,7 +24,14 @@ const ItemDetailContainer = ({ setProducts }) => {
     }, 2000);
   });
 
-  return <div></div>;
+  return <div>
+
+
+  </div>;
 };
 
 export default ItemDetailContainer;
+
+
+
+
